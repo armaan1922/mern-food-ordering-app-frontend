@@ -10,8 +10,7 @@ import { Button } from "../../components/ui/button";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { Form } from "../../components/ui/form";
 
-const formSchema = z
-  .object({
+const formSchema = z.object({
     restaurantName: z.string({
       required_error: "restuarant name is required",
     }),
