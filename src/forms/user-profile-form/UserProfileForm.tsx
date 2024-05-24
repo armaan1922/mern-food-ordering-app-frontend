@@ -2,11 +2,11 @@ import { z } from "zod";
 import {useForm} from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 
-import LoadingButton from "../../components/LoadingButton";
-import { Input } from "../../components/ui/input";
-import { Form, FormControl, FormDescription, FormField, FormItem, FormLabel, FormMessage } from "../../components/ui/form";
-import { User } from "../../types";
 import { useEffect } from "react";
+import { User } from "@/types";
+import { Form, FormControl, FormDescription, FormField, FormItem, FormLabel, FormMessage } from "@/components/ui/form";
+import { Input } from "@/components/ui/input";
+import LoadingButton from "@/components/LoadingButton";
 
 const formSchema = z.object({
   email: z.string().optional(),

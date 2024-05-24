@@ -1,7 +1,8 @@
 
+import { Checkbox } from "@/components/ui/checkbox";
+import { FormControl, FormItem, FormLabel } from "@/components/ui/form";
 import { ControllerRenderProps, FieldValues } from "react-hook-form";
-import { FormControl, FormItem, FormLabel } from "../../components/ui/form";
-import { Checkbox } from "../../components/ui/checkbox";
+
 
 type Props = {
   cuisine: string;
